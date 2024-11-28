@@ -1,9 +1,6 @@
-import java.util.*;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a ternary expression:");
-        String expression = scanner.nextLine();
-    }
+public static int parseTernary(String expression) {
+        if (expression == null || expression.length() == 0) {
+            return 0;
+        }
+        Stack<Character> stack = new Stack<>();
 }
